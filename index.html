@@ -24,8 +24,6 @@
 		<div id="app">加载中...</div>
 		<script>
 			window.$docsify = {
-				routerMode: "history", // default: 'hash'
-
 				// 项目名称
 				name: "Aumiao 使用文档",
 				// 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
@@ -36,10 +34,16 @@
 				loadNavbar: true,
 				// 封面支持，默认加载的是项目根目录下的_coverpage.md文件
 				topMargin: 25, // default: 0
+				// 自动回到顶部
 				auto2top: true,
+				// 自动显示header
+				autoHeader: false,
+				// 显示首页，需要配置_coverpage.md文件，参考 https://github.com/Netflix/pollyjs/blob/master/docs/_coverpage.md
 				coverpage: true,
-				// 最大支持渲染的标题层级
-				maxLevel: 5,
+				// 最大子层级
+				subMaxLevel: 3,
+				// 最大父层级
+				maxLevel: 3,
 				// 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
 				subMaxLevel: 4,
 				// 小屏设备下合并导航栏到侧边栏
