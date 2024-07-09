@@ -40,18 +40,17 @@
 				autoHeader: false,
 				// 显示首页，需要配置_coverpage.md文件，参考 https://github.com/Netflix/pollyjs/blob/master/docs/_coverpage.md
 				coverpage: true,
-				// 配置readme文件
-				homepage: "_homepage.md",
-				// 配置404页面, 需要配置 _404.md
-				notFoundPage: true,
 				// 最大子层级
 				subMaxLevel: 3,
 				// 最大父层级
 				maxLevel: 3,
-				// 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
-				subMaxLevel: 4,
+				// 路由模式 hash或者history
+				routerMode: "history",
 				// 小屏设备下合并导航栏到侧边栏
 				mergeNavbar: true,
+				homepage: "_homepage.md",
+				// 配置404页面, 需要配置 _404.md
+				notFoundPage: true,
 				/*搜索相关设置*/
 				search: {
 					maxAge: 86400000, // 过期时间，单位毫秒，默认一天
@@ -68,7 +67,7 @@
 				},
 				scrollToTop: {
 					auto: true,
-					text: "▲",
+					text: "🔼",
 					right: 12,
 					bottom: 52,
 					offset: 25,
