@@ -6,4 +6,4 @@
 * 友情链接
   * [博客园](https://www.cnblogs.com/)
   * [猫鱼aの博客](https://aurzex.top)
-* [Bug反馈](mailto:Aumiao@qaurzex.top)
+* [Bug反馈](mailto:Aumiao@aurzex.top)
